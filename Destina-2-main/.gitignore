@@ -1,0 +1,22 @@
+# Auto-generated entries
+node_modules/
+.next/
+.pnp\n.pnp.js
+
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
