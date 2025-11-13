@@ -17,6 +17,8 @@ export function FeaturedProperties({ id }: { id?: string }) {
   )
 
   const [visibleCount, setVisibleCount] = useState(() => Math.min(items.length, 4))
+  const [confirmingIds, setConfirmingIds] = useState<Record<string, boolean>>({})
+  const [reservedIds, setReservedIds] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
     setVisibleCount(Math.min(items.length, 4))
@@ -98,6 +100,43 @@ export function FeaturedProperties({ id }: { id?: string }) {
                       Ver más información
                     </a>
                   )}
+
+                  {/* Reserva: botón + verificación pequeña en la vista detalle */}
+                  <div className="pt-4">
+                    {!reservedIds[item.id] ? (
+                      confirmingIds[item.id] ? (
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm text-gray-700">¿Confirmar reserva?</span>
+                          <Button
+                            size="sm"
+                            onClick={() => {
+                              setReservedIds((s) => ({ ...s, [item.id]: true }))
+                              setConfirmingIds((s) => ({ ...s, [item.id]: false }))
+                            }}
+                            className="bg-rose-500 text-white"
+                          >
+                            Confirmar
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => setConfirmingIds((s) => ({ ...s, [item.id]: false }))}
+                          >
+                            Cancelar
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          onClick={() => setConfirmingIds((s) => ({ ...s, [item.id]: true }))}
+                          className="w-full"
+                        >
+                          Reservar
+                        </Button>
+                      )
+                    ) : (
+                      <Badge className="bg-green-100 text-green-800">Reserva confirmada ✓</Badge>
+                    )}
+                  </div>
                 </div>
               </DialogContent>
             </Dialog>

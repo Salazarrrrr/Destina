@@ -13,7 +13,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   cartagena: {
     id: "cartagena",
     name: "Cartagena de Indias, Colombia",
-    image: "/images/destinations/cartagena.jpg",
+  image: "/images/destinations/cartagena.jpeg",
     summary: "Ciudad amurallada, playas caribeñas y vida nocturna vibrante.",
     priceRange: "$120 – $250 por noche",
     highlights: [
@@ -27,7 +27,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   medellin: {
     id: "medellin",
     name: "Medellín, Colombia",
-    image: "/images/destinations/medellin.jpg",
+  image: "/images/destinations/medellin.jpeg",
     summary: "Clima primaveral, innovación urbana y paisajes montañosos.",
     priceRange: "$80 – $200 por noche",
     highlights: [
@@ -40,7 +40,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   bogota: {
     id: "bogota",
     name: "Bogotá, Colombia",
-    image: "/images/destinations/bogota.jpg",
+  image: "/images/destinations/bogota.jpeg",
     summary: "Capital cultural, museos de primer nivel y gastronomía en auge.",
     priceRange: "$90 – $220 por noche",
     highlights: [
@@ -53,7 +53,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   tayrona: {
     id: "tayrona",
     name: "Parque Tayrona, Colombia",
-    image: "/images/destinations/tayrona.jpg",
+  image: "/images/destinations/tayrona.jpeg",
     summary: "Selva tropical, playas vírgenes y biodiversidad en la costa Caribe.",
     priceRange: "$60 – $180 por noche",
     highlights: [
@@ -66,7 +66,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   sanandres: {
     id: "sanandres",
     name: "San Andrés, Colombia",
-    image: "/images/destinations/sanandres.jpg",
+  image: "/images/destinations/sanandres.jpeg",
     summary: "Playas de arena blanca y el famoso mar de los siete colores.",
     priceRange: "$110 – $260 por noche",
     highlights: [
@@ -79,7 +79,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   cancun: {
     id: "cancun",
     name: "Cancún, México",
-    image: "/images/destinations/cancun.jpg",
+  image: "/images/destinations/cancun.jpeg",
     summary: "Resorts frente al mar, ruinas mayas cercanas y vida nocturna energética.",
     priceRange: "$150 – $400 por noche",
     highlights: [
@@ -92,7 +92,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   tulum: {
     id: "tulum",
     name: "Tulum, México",
-    image: "/images/destinations/tulum.jpg",
+  image: "/images/destinations/tulum.jpeg",
     summary: "Ruinas frente al mar, cenotes cristalinos y hoteles boutique.",
     priceRange: "$140 – $350 por noche",
     highlights: [
@@ -105,7 +105,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   newyork: {
     id: "newyork",
     name: "Nueva York, Estados Unidos",
-    image: "/images/destinations/newyork.jpg",
+  image: "/images/destinations/newyork.jpeg",
     summary: "Ciudad icónica con arte, gastronomía, Broadway y rascacielos legendarios.",
     priceRange: "$180 – $500 por noche",
     highlights: [
@@ -118,7 +118,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   miami: {
     id: "miami",
     name: "Miami, Estados Unidos",
-    image: "/images/destinations/miami.jpg",
+  image: "/images/destinations/miami.jpeg",
     summary: "Playas, Art Deco, compras y vibrante vida nocturna latina.",
     priceRange: "$170 – $420 por noche",
     highlights: [
@@ -131,7 +131,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   paris: {
     id: "paris",
     name: "París, Francia",
-    image: "/images/destinations/paris.jpg",
+  image: "/images/destinations/paris.jpeg",
     summary: "Capital romántica con museos emblemáticos y gastronomía exquisita.",
     priceRange: "€150 – €400 por noche",
     highlights: [
@@ -144,7 +144,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   barcelona: {
     id: "barcelona",
     name: "Barcelona, España",
-    image: "/images/destinations/barcelona.jpg",
+  image: "/images/destinations/barcelona.jpeg",
     summary: "Arquitectura modernista, playas urbanas y cultura mediterránea.",
     priceRange: "€120 – €320 por noche",
     highlights: [
@@ -157,7 +157,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   madrid: {
     id: "madrid",
     name: "Madrid, España",
-    image: "/images/destinations/madrid.jpg",
+  image: "/images/destinations/madrid.jpeg",
     summary: "Capital cultural con museos de renombre y vibrante vida nocturna.",
     priceRange: "€100 – €280 por noche",
     highlights: [
@@ -170,7 +170,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   rome: {
     id: "rome",
     name: "Roma, Italia",
-    image: "/images/destinations/rome.jpg",
+  image: "/images/destinations/roma.jpeg",
     summary: "Historia milenaria, ruinas romanas y cocina italiana auténtica.",
     priceRange: "€110 – €300 por noche",
     highlights: [
@@ -183,7 +183,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   santorini: {
     id: "santorini",
     name: "Santorini, Grecia",
-    image: "/images/destinations/santorini.jpg",
+  image: "/images/destinations/santorini.jpeg",
     summary: "Acantilados volcánicos, pueblos blancos y puestas de sol inolvidables.",
     priceRange: "€180 – €450 por noche",
     highlights: [
@@ -196,7 +196,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   dubai: {
     id: "dubai",
     name: "Dubái, Emiratos Árabes Unidos",
-    image: "/images/destinations/dubai.jpg",
+  image: "/images/destinations/dubai.jpeg",
     summary: "Rascacielos futuristas, lujo sin límites y desierto a minutos.",
     priceRange: "$160 – $500 por noche",
     highlights: [
@@ -209,7 +209,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   bali: {
     id: "bali",
     name: "Bali, Indonesia",
-    image: "/images/destinations/bali.jpg",
+  image: "/images/destinations/bali.jpeg",
     summary: "Isla tropical con templos, arrozales y playas para surf.",
     priceRange: "$70 – $220 por noche",
     highlights: [
@@ -222,7 +222,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   tokyo: {
     id: "tokyo",
     name: "Tokio, Japón",
-    image: "/images/destinations/tokyo.jpg",
+  image: "/images/destinations/tokio.jpeg",
     summary: "Megaciudad futurista con contraste de tradición y tecnología.",
     priceRange: "¥12,000 – ¥35,000 por noche",
     highlights: [
@@ -235,7 +235,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   sydney: {
     id: "sydney",
     name: "Sídney, Australia",
-    image: "/images/destinations/sydney.jpg",
+  image: "/images/destinations/signey.jpeg",
     summary: "Icono australiano con playas, ópera y clima templado.",
     priceRange: "AU$140 – AU$350 por noche",
     highlights: [
@@ -248,7 +248,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   capetown: {
     id: "capetown",
     name: "Ciudad del Cabo, Sudáfrica",
-    image: "/images/destinations/capetown.jpg",
+  image: "/images/destinations/ciudaddelcabo.jpeg",
     summary: "Naturaleza espectacular entre montaña y océano.",
     priceRange: "$100 – $280 por noche",
     highlights: [
@@ -261,7 +261,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   queenstown: {
     id: "queenstown",
     name: "Queenstown, Nueva Zelanda",
-    image: "/images/destinations/queenstown.jpg",
+  image: "/images/destinations/queewston.jpeg",
     summary: "Capital mundial de la aventura rodeada de paisajes alpinos.",
     priceRange: "$150 – $320 por noche",
     highlights: [
@@ -274,7 +274,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   marrakech: {
     id: "marrakech",
     name: "Marrakech, Marruecos",
-    image: "/images/destinations/marrakech.jpg",
+  image: "/images/destinations/marrakers.jpeg",
     summary: "Palacios, zocos y sabores intensos en la Puerta del Desierto.",
     priceRange: "$90 – $250 por noche",
     highlights: [
@@ -287,7 +287,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   reykjavik: {
     id: "reykjavik",
     name: "Reikiavik, Islandia",
-    image: "/images/destinations/reykjavik.jpg",
+  image: "/images/destinations/reivakik.jpeg",
     summary: "Capital nórdica ideal para auroras boreales y termas geotérmicas.",
     priceRange: "$180 – $420 por noche",
     highlights: [
@@ -302,7 +302,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   banff: {
     id: "banff",
     name: "Banff, Canadá",
-    image: "/images/destinations/banff.jpg",
+  image: "/images/destinations/banff.jpeg",
     summary: "Lagos turquesa, picos rocosos y vida salvaje en las Montañas Rocosas.",
     priceRange: "$120 – $280 por noche",
     highlights: ["Lake Louise", "Moraine Lake", "Banff Gondola"],
@@ -311,7 +311,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   zermatt: {
     id: "zermatt",
     name: "Zermatt, Suiza",
-    image: "/images/destinations/zermatt.jpg",
+  image: "/images/destinations/zermmat.jpeg",
     summary: "Pueblo alpino icónico al pie del Matterhorn.",
     priceRange: "CHF 150 – 380 por noche",
     highlights: ["Matterhorn", "Gornergrat Bahn", "Ski todo el año"],
@@ -320,7 +320,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   chamonix: {
     id: "chamonix",
     name: "Chamonix, Francia",
-    image: "/images/destinations/chamonix.jpg",
+  image: "/images/destinations/chamonix.jpeg",
     summary: "Capital del alpinismo al pie del Mont Blanc.",
     priceRange: "€120 – €300 por noche",
     highlights: ["Aiguille du Midi", "Mer de Glace", "Senderos alpinos"],
@@ -329,7 +329,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   interlaken: {
     id: "interlaken",
     name: "Interlaken, Suiza",
-    image: "/images/destinations/interlaken.jpg",
+  image: "/images/destinations/interlaken.jpeg",
     summary: "Entre lagos y montañas, epicentro de deportes de aventura.",
     priceRange: "CHF 130 – 300 por noche",
     highlights: ["Lagos Thun y Brienz", "Jungfrau", "Parapente"],
@@ -338,7 +338,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   hallstatt: {
     id: "hallstatt",
     name: "Hallstatt, Austria",
-    image: "/images/destinations/hallstatt.jpg",
+  image: "/images/destinations/hallasat.jpeg",
     summary: "Pueblo alpino de cuento junto a un lago cristalino.",
     priceRange: "€110 – €260 por noche",
     highlights: ["Lago Hallstatt", "Miradores panorámicos", "Arquitectura alpina"],
@@ -347,7 +347,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   sedona: {
     id: "sedona",
     name: "Sedona, Estados Unidos",
-    image: "/images/destinations/sedona.jpg",
+  image: "/images/destinations/sedona.jpeg",
     summary: "Formaciones rocosas rojas, rutas de senderismo y onsen espirituales.",
     priceRange: "$100 – $220 por noche",
     highlights: ["Cathedral Rock", "Bell Rock", "Chapel of the Holy Cross"],
@@ -356,7 +356,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   yosemite: {
     id: "yosemite",
     name: "Parque Yosemite, Estados Unidos",
-    image: "/images/destinations/yosemite.jpg",
+  image: "/images/destinations/yosemite.jpeg",
     summary: "Valles glaciares, cascadas y paredes de granito legendarias.",
     priceRange: "$120 – $300 por noche",
     highlights: ["El Capitan", "Half Dome", "Yosemite Falls"],
@@ -365,7 +365,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   niseko: {
     id: "niseko",
     name: "Niseko, Japón",
-    image: "/images/destinations/niseko.jpg",
+  image: "/images/destinations/niseko.jpeg",
     summary: "Nieve polvo de clase mundial, vistas al Monte Yōtei y onsen tradicionales.",
     priceRange: "¥14,000 – ¥35,000 por noche",
     highlights: ["Ski powder", "Monte Yōtei", "Onsen"],
@@ -374,7 +374,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   cortina: {
     id: "cortina",
     name: "Cortina d’Ampezzo, Italia",
-    image: "/images/destinations/cortina.jpg",
+  image: "/images/destinations/cortinadamperzzo.jpeg",
     summary: "Dolomitas italianas con glamur alpino, ski y rutas panorámicas.",
     priceRange: "€140 – €320 por noche",
     highlights: ["Dolomitas", "Ski & snowboard", "Excursiones panorámicas"],
@@ -383,7 +383,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   bled: {
     id: "bled",
     name: "Lago Bled, Eslovenia",
-    image: "/images/destinations/bled.jpg",
+  image: "/images/destinations/lagoblend.jpeg",
     summary: "Lago esmeralda, isla con iglesia y castillo medieval en las alturas.",
     priceRange: "€90 – €220 por noche",
     highlights: ["Isla de Bled", "Castillo de Bled", "Barcas tradicionales"],
@@ -392,7 +392,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   maldives: {
     id: "maldives",
     name: "Maldivas",
-    image: "/images/destinations/maldives.jpg",
+  image: "/images/destinations/maldivas.jpeg",
     summary: "Atolones con aguas turquesa y bungalows sobre el mar.",
     priceRange: "$250 – $800 por noche",
     highlights: ["Snorkel", "Resorts de lujo", "Playas prístinas"],
@@ -401,7 +401,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   seychelles: {
     id: "seychelles",
     name: "Seychelles",
-    image: "/images/destinations/seychelles.jpg",
+  image: "/images/destinations/seychelles.jpeg",
     summary: "Playas de granito, aguas cristalinas y naturaleza virgen.",
     priceRange: "$200 – $600 por noche",
     highlights: ["Anse Source d’Argent", "Praslin", "La Digue"],
@@ -410,7 +410,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   borabora: {
     id: "borabora",
     name: "Bora Bora, Polinesia",
-    image: "/images/destinations/borabora.jpg",
+  image: "/images/destinations/borabora.jpeg",
     summary: "Laguna azul icónica y villas sobre el agua.",
     priceRange: "$300 – $900 por noche",
     highlights: ["Overwater bungalows", "Laguna turquesa", "Corales"],
@@ -419,7 +419,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   phuket: {
     id: "phuket",
     name: "Phuket, Tailandia",
-    image: "/images/destinations/phuket.jpg",
+  image: "/images/destinations/phuket.jpeg",
     summary: "Playas tropicales, templos tailandeses y excursiones a Phi Phi.",
     priceRange: "$60 – $200 por noche",
     highlights: ["Islas Phi Phi", "Bahía Phang Nga", "Phuket histórico"],
@@ -428,7 +428,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   maui: {
     id: "maui",
     name: "Maui, Hawái",
-    image: "/images/destinations/maui.jpg",
+  image: "/images/destinations/maiu.jpeg",
     summary: "Playas, Road to Hana y amanecer en el cráter Haleakalā.",
     priceRange: "$180 – $450 por noche",
     highlights: ["Haleakalā", "Road to Hana", "Molokini"],
@@ -437,7 +437,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   zanzibar: {
     id: "zanzibar",
     name: "Zanzíbar, Tanzania",
-    image: "/images/destinations/zanzibar.jpg",
+  image: "/images/destinations/zanzibar.jpeg",
     summary: "Playas de arena blanca, Stone Town Patrimonio UNESCO y buceo.",
     priceRange: "$90 – $250 por noche",
     highlights: ["Nungwi", "Paje", "Stone Town"],
@@ -446,7 +446,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   amalfi: {
     id: "amalfi",
     name: "Costa Amalfitana, Italia",
-    image: "/images/destinations/amalfi.jpg",
+  image: "/images/destinations/costalamalfitana.jpeg",
     summary: "Pueblos en acantilados, mar Tirreno y gastronomía mediterránea.",
     priceRange: "€150 – €380 por noche",
     highlights: ["Positano", "Amalfi", "Ravello"],
@@ -455,7 +455,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   algarve: {
     id: "algarve",
     name: "Algarve, Portugal",
-    image: "/images/destinations/algarve.jpg",
+  image: "/images/destinations/algarve.jpeg",
     summary: "Acantilados dorados, cuevas marinas y playas espectaculares.",
     priceRange: "€80 – €220 por noche",
     highlights: ["Benagil", "Ponta da Piedade", "Lagos"],
@@ -464,7 +464,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   tahiti: {
     id: "tahiti",
     name: "Tahití, Polinesia",
-    image: "/images/destinations/tahiti.jpg",
+  image: "/images/destinations/tahiti.jpeg",
     summary: "Isla volcánica con selva tropical y cultura polinesia.",
     priceRange: "$180 – $420 por noche",
     highlights: ["Papeete", "Mont Aorai", "Playas negras"],
@@ -473,7 +473,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   amsterdam: {
     id: "amsterdam",
     name: "Ámsterdam, Países Bajos",
-    image: "/images/destinations/amsterdam.jpg",
+  image: "/images/destinations/amsterdam.jpeg",
     summary: "Canales, museos de primer nivel y vida urbana relajada.",
     priceRange: "€120 – €320 por noche",
     highlights: ["Rijksmuseum", "Casa de Ana Frank", "Bicicletas"],
@@ -482,7 +482,7 @@ const DESTINATION_CATALOG: Record<string, DestinationInfo> = {
   prague: {
     id: "prague",
     name: "Praga, República Checa",
-    image: "/images/destinations/prague.jpg",
+  image: "/images/destinations/praga.jpeg",
     summary: "Arquitectura gótica y barroca con ambiente medieval.",
     priceRange: "€90 – €220 por noche",
     highlights: ["Puente de Carlos", "Castillo de Praga", "Reloj Astronómico"],

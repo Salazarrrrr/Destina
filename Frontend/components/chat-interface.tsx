@@ -274,16 +274,24 @@ export function ChatInterface({
   {message.type === "ai" && contentDestinations(message.content) && (
     <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
       <b className="col-span-2">Encontré estos destinos para ti: </b>
-      {extractDestinations(message.content).map((dest) => (
-        <DestinationCard 
-          key={dest} 
-          badge="Destino" 
-          location="Ciudad" 
-          price={150000} 
-          rate={5} 
-          title={dest} 
-        />
-      ))}
+      {(() => {
+        const matches = findDestinations(extractDestinations(message.content))
+        return matches.map((item) => {
+          const priceMatch = item.priceRange?.match(/\d{2,4}/)
+          const price = priceMatch ? parseInt(priceMatch[0], 10) : 100
+          return (
+            <DestinationCard
+              key={item.id}
+              badge="Destino"
+              location={item.name}
+              price={price}
+              rate={5}
+              image={item.image}
+              title={item.name}
+            />
+          )
+        })
+      })()}
     </div>
   )}
 </div>
